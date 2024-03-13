@@ -1,0 +1,144 @@
+body {
+    background-color: aquamarine;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper {
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header {
+    background: url(../img/header.jpg) repeat-x #555;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+#header img {
+    width: 50px;
+    height: 30px;
+}
+
+#menu-utama {
+    margin-top: 3px;
+    list-style: none;
+}
+
+#menu-utama li {
+    float: left;
+    padding: 8px 20px;
+    border-right: 1px solid #555555;
+}
+
+#menu-utama li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header form {
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+#content {
+    width: 470px;
+    float: left;
+}
+
+#content .artikel img {
+    width: 100px;
+    height: 100px;
+}
+
+.artikel img {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.artikel {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.artikel p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.artikel a {
+    color: #636363;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 270px;
+    float: right;
+}
+
+#sidebar h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#sidebar {
+    line-height: 20px;
+    color: #636363;
+}
+
+#sidebar ul {
+    margin-left:20px;
+}
+
+#sidebar ul li a {
+    color:#636363;
+    text-decoration: none;
+}
+
+#footer {
+    clear: both;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 5px;
+    color: #555555;
+}
+
+.sub-artikel img {
+    margin-right: 10px;
+    width: 450px;
+    height: 300px;
+}
+
+.sub-artikel {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.sub-artikel p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.sub-artikel a {
+    color: #f80d0d;
+    display: block;
+    text-decoration: none;
+}
